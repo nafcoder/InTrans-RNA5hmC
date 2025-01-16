@@ -7,7 +7,7 @@
 ![full_archi-1](https://github.com/user-attachments/assets/d2f69964-6622-49d8-b470-6c16f2398bdb)
 
 ### Data availability
-All training and independent datasets are given in [dataset](Dataset) folder
+All training and independent datasets are given in the [dataset](Dataset) folder
 
 ### Environments
 OS: Pop!_OS 22.04 LTS
@@ -35,14 +35,14 @@ transformers==4.44.2
 ```
 
 ### Reproduce results
-1. We have given the training and testing scripts in [Training](Training) and [Testing](Testing), folders respectively.
+1. We have given the training and testing scripts in [Training](Training) and [Testing](Testing) folders respectively.
 
 ### Prediction
 #### Prerequisites
 To generate the RiNALMo embedding, please see [RiNALMo GitHub](https://github.com/lbcb-sci/RiNALMo).
 
 #### Steps
-1. Firsly, you need to fillup [dataset.txt](Predict/dataset.txt) file. Follow the pattern shown below:
+1. Firstly, you need to fill up the [dataset.txt](Predict/dataset.txt) file. Follow the pattern shown below:
 
 ```
 >seq_id1
@@ -51,7 +51,7 @@ Fasta
 Fasta
 ```
 
-2. For predicting 5-Hydroxymethylcytosine modification from a RNA sequence, you need to run the [extract_word_embedding.py](Predict/extract_word_embedding.py) to generate Word embedding and then run [predict.py](Predict/predict.py) for prediction. Before prediction, the RiNALMo embedding should be generated and stored into [RiNALMo.npy](Predict/RiNALMo.npy) file.
+2. For predicting 5-Hydroxymethylcytosine modification from the RNA sequences, you need to run the [extract_word_embedding.py](Predict/extract_word_embedding.py) to generate Word embedding and then run [predict.py](Predict/predict.py) for prediction. Before prediction, the RiNALMo embedding should be generated and stored in [RiNALMo.npy](Predict/RiNALMo.npy) file.
 
-### Reproduce previous paper metrics for C-linked glycosylation
-In [existing SOTA models](existing SOTA models) folder, scripts are provided for reproducing the results of the previous papers.
+### Reproduce previous paper metrics for 5-Hydroxymethylcytosine modification
+In the [existing SOTA models](existing SOTA models) folder, scripts are provided for reproducing the results of the previous papers.
