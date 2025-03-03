@@ -54,4 +54,4 @@ Fasta
 2. For predicting 5-Hydroxymethylcytosine modification from the RNA sequences, you need to run the [extract_word_embedding.py](Predict/extract_word_embedding.py) to generate Word embedding and then run [predict.py](Predict/predict.py) for prediction. Before prediction, the RiNALMo embedding should be generated and stored in [RiNALMo.npy](Predict/RiNALMo.npy) file.
 
 ### Reproduce previous paper metrics for 5-Hydroxymethylcytosine modification
-In the [existing SOTA models](existing\ SOTA\ models) folder, scripts are provided for reproducing the results of the previous papers.
+In the [existing_SOTA_models](existing_SOTA_models) folder, scripts are provided for reproducing the results of the previous papers.
